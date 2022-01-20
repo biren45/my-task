@@ -1,0 +1,17 @@
+
+public class SwapDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fno=10;int sno=25;
+		System.out.println("Before Swapping ");
+		System.out.println("Fno : "+fno+"Sno :"+sno);
+		//swapping
+		fno=fno+sno;//10+25=35
+		sno=fno-sno;//35-25=10
+		fno=fno-sno;//35-10=25
+		System.out.println("After Swapping ");
+		System.out.println("Fno : "+fno+"Sno :"+sno);
+	}
+
+}
